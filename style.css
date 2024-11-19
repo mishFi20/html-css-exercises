@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    background-color: #fff3c9;
+    font-family: roboto, sans-serif;
+    font-weight: 200;
+}
+.contact {
+    display: flex;
+    padding: 40px;
+    justify-content:space-evenly;
+
+}
+h2{
+    font-weight: 600;
+    
+}
+.contact_us {
+    width: 50%;
+}
+.contact_form {
+    width: 50%;
+}
+.info {
+    width: 75%;
+}
+.gato {
+    text-decoration: none;
+    color: blue;
+}
+.user_info {
+    background-color: #fff;
+    border:  solid #aca8a8 1px;
+    width: 70%;
+    height: 35px;
+}
+.user_info_p {
+    margin-bottom: 0;
+}
+.user_message {
+    background-color: #fff;
+    border:  solid #aca8a8 1px;
+    width: 70%;
+    height: 100px;
+}
+.button {
+    margin-top: 25px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    font-weight: 700;
+    padding-right: 60px;
+    font-size: 15px;
+}
+.input {
+    position: relative;
+}
+.input i {
+    position: absolute ;
+    right: 32%;
+    background-color: red;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    top: 6px;
+}
+.icon_button  {
+    position: relative;
+    padding-right: 20px;
+}
+.rectangle{
+    position: absolute;
+    bottom: 19px;
+    background-color: #fff;
+    left: 120px;
+    width: 22px;
+    height: 8px;
+}
