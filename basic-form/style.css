@@ -52,6 +52,7 @@ h2{
     font-weight: 700;
     padding-right: 60px;
     font-size: 15px;
+    position: relative;
 }
 .input {
     position: relative;
@@ -66,14 +67,14 @@ h2{
     top: 6px;
 }
 .icon_button  {
-    position: relative;
+   
     padding-right: 20px;
 }
 .rectangle{
     position: absolute;
     bottom: 19px;
     background-color: #fff;
-    left: 120px;
     width: 22px;
     height: 8px;
+    right: 25px;
 }
