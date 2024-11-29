@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+    background-color: #eef2f2;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10em 20px;
+}
+.chatbot {
+    width: 40%;
+
+}
+.encabezado {
+    background-color: #589ee4;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.ticketing {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    padding:10px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+.foto img{
+    width: 3em;
+}
+.ticketing p {
+    font-size: small;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    
+}
+.chat {
+    background-color: #fff;
+    padding: 15px 10px;
+}
+.chat-1 {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.texto-largo {
+    padding-right: 50px;
+    width: 15em;
+}
+.texto-largo p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-left: 10px;
+}
+
+.texto-corto {
+    width: 9em;
+    text-align: center;
+}
+.texto-corto p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.chat-1 p {
+    background-color: rgb(226, 223, 223);
+    margin-bottom: 5px;
+}
+.texto {
+    margin-left: 7px;
+}
+.mover {
+    display: flex;
+    align-items: end;
+}
+.options {
+    padding-left: 4.5em;
+    margin-bottom: 6px;
+}
+.option {
+    display: flex;
+}
+.button {
+    border: 2px solid #589ee4;
+    padding: 10px 20px;
+    color: #2a87e5;
+}
+.faq {
+    border-radius: 50px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+.connect {
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.ticket {
+    width: 10em;
+    border-radius: 50px;
+    text-align: center;
+}
+.chat-2 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.create-ticket {
+    width: 15em;
+    background-color: #589ee4;
+    width: 9em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    text-align: center;
+
+}
+.create-ticket p {
+    color: #fff;
+}
+.chat-3 {
+    display: flex;
+    margin-bottom: 15px;
+}
+.texto-largo-1{
+    width: 15em;
+    background-color: rgb(226, 223, 223);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin-left: 7px;
+}
+.mover-1{
+    display: flex;
+    align-items: end;
+}
+.chat-4 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.name {
+    width: 15em;
+    background-color: #589ee4;
+    width: 9em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    text-align: center;
+}
+.name p {
+    color: #fff;
+}
+
+
