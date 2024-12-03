@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    height: 103px;
+    padding: 10px 40px;
+}
+.encabezado-info {
+    display: flex;
+    padding-top: 3em;
+}
+.encabezado img {
+    width: 11em;
+}
+.separacion {
+    height: 35px;
+    width: 3px;
+    background-color: rgb(194, 191, 191);
+}
+.date {
+    padding-right: 2em;
+}
+.invoice {
+    padding-left: 2em;
+}
+.date-1 {
+    color: rgb(194, 191, 191);
+}
+.fecha {
+    color: #6d70c7;
+}
+.datos-company {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.datos-company p {
+    font-size: small;
+    padding-bottom: 3px;
+}
+.datos-company strong {
+    font-size: small;
+}
+.datos {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f1f6f9;
+}
+.detalles-producto {
+    padding: 40px 60px;
+    padding-bottom: 0;
+}
+th {
+    color:  #6563aa;
+    border-bottom: solid #6563aa;
+    padding-bottom: 10px;
+    text-align: start;
+}
+td {
+    border-bottom: 1px solid rgb(212, 210, 210);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.numero {
+    text-align: center;
+    padding-right: 15px;
+}
+.nombre {
+    text-align: start;
+    width: 310px;
+}
+.precio {
+    width: 150px;
+}
+.cty {
+    text-align: start;
+    width: 150px;
+}
+.vat {
+    width: 140px;
+}
+.subtotal {
+    width: 150px;
+    text-align: center;
+}
+.total {
+    text-align: end;
+}
+.totales p {
+    text-align: end;
+}
+.botones {
+    padding: 10px 60px;
+    margin-bottom: 8em;
+}
+.net-total {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+    
+}
+.net-total p {
+    border-bottom: 1px solid rgb(194, 192, 192);
+    height: 25px;
+}
+.vat-total {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 8px;
+}
+.letra-gris {
+    color: rgb(204, 203, 203);
+}
+.letra-morada {
+    color: #6563aa;
+    padding-left: 5px;
+}
+.total-1 {
+    display: flex;
+    justify-content: end;
+   
+}
+.total-1 p {
+    background-color: #6563aa;
+    color: #fff;
+    padding: 5px 6px;
+}
+.payment-details {
+    padding-left: 60px;
+    font-size: small;
+    margin-bottom: 25px;
+}
+.payment-details h4 {
+    color: #6563aa;
+}
+.notes {
+    padding-left: 60px;
+}
+.notes h4 {
+    color: #6563aa;
+}
+.notes p {
+    font-size: small;
+}
+footer {
+    background-color: rgb(236, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+footer p {
+    font-size: small;
+    padding-left: 10px;
+}
